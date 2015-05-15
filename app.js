@@ -23,7 +23,6 @@ app.configure('development', function() {
 });
 
 app.configure('production', function() {
-	app.set('address', 'morning-beyond-4331.herokuapp.com');
 	app.use(express.errorHandler());
 });
 
